@@ -1,0 +1,46 @@
+@import "nav.css";
+@import "footer.css";
+body {
+    margin: 0%;
+}
+nav {
+    background-color: #06303A;
+}
+.title {
+    font-size: 45px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 5px;
+}
+img {
+    width: 50%;
+    border: 2px solid #06303A;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+.grid-container {
+    display: grid;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media(min-width: 320px) {
+    .btn {
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
