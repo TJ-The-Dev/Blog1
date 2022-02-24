@@ -54,6 +54,8 @@ figcaption {
     }
     footer {
         position: absolute;
+        top: auto;
+        bottom: 0%;
         font-size: 2em;
     }
 }
