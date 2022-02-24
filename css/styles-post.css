@@ -28,17 +28,23 @@ ul {
 }
 footer {
     position: sticky;
-    top: 100%;
     height: 80px;
     width: 100%;
+    top: auto;
     color:#FFFFFF; 
     background: #06303A;
     font-size:1.5em;
-    text-align: center;
     line-height: 50px;
     }
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 600px) {
+    img {
+        width: 150px;
+    }
     .grid-title {
         display: grid;
+    }
+    ul {
+        text-align: center;
+        padding: 5px;
     }
 }
