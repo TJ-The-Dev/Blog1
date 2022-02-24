@@ -27,8 +27,8 @@ ul {
     color: #FFFFFF;
 }
 footer {
-    left: 0;
-    bottom: 0;
+    position: sticky;
+    top: 100%;
     height: 80px;
     width: 100%;
     color:#FFFFFF; 
@@ -37,3 +37,8 @@ footer {
     text-align: center;
     line-height: 50px;
     }
+@media screen and (min-width: 320px) {
+    .grid-title {
+        display: grid;
+    }
+}
